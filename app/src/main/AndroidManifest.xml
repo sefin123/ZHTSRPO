@@ -12,17 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ClearCrafter"
         tools:targetApi="31">
+
+        <!-- LoginActivity - стартовая активность -->
         <activity
-            android:name=".MainActivity"
+            android:name=".login.LoginActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ClearCrafter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity - открывается после успешного входа -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ClearCrafter" />
+
     </application>
 
 </manifest>

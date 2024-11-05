@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787077657366",
+    "project_id": "clearcrafter-27595",
+    "storage_bucket": "clearcrafter-27595.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787077657366:android:747803170bf2de40315637",
+        "android_client_info": {
+          "package_name": "com.example.clearcrafter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcnVJ_kGuj1yihYvG5HwP5-9siC8RTbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
